@@ -1,0 +1,13 @@
+Favicon biasanya berekstensi .ico dan berukuran
+16 x 16 & 32 x 32
+// Dari ukuran diatas Kenapa dan?
+karena file .ico dapat menyimpan lebih dari 1 gambar
+Caranya jika ada web server
+--Simpan di root web server (biasanya folder:public_html)
+--disimpan dengan nama 'favicon.ico'
+// Cara diatas Tidak berlaku di web statis (tanpa web server)
+Caranya jika di sub-domain atau di web lokal
+tambahkan tag html di bagian head :
+<link rel="shortcut icon" href="favicon.ico">
+
+// favicomatic
