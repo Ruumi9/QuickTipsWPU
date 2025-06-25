@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* #p1:target {
+        background-color: salmon;
+      }
+      #p2:target {
+        background-color: lightblue;
+      }
+      #p3:target {
+        background-color: coral;
+      } */
+      /* Pengubahan dengan cara mengambil component yang ada class nya */
+      .p1:target {
+        background-color: salmon;
+      }
+      .p2:target {
+        background-color: lightblue;
+      }
+      .p3:target {
+        background-color: coral;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <!-- Pemanggilan harus dengan id -->
+      <li><a href="#p1">Paragraf 1</a></li>
+      <li><a href="#p2">Paragraf 2</a></li>
+      <li><a href="#p3">Paragraf 3</a></li>
+    </ul>
+    <h1 id="judul">Ini judul</h1>
+    <p id="p1" class="p1">Paragraf 1</p>
+    <p id="p2" class="p2">Paragraf 2</p>
+    <p id="p3" class="p3">Paragraf 3</p>
+  </body>
+</html>
