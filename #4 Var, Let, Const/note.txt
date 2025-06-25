@@ -1,0 +1,32 @@
+Pada JS
+Hoisting Terj (Mengangkat/Dinaikan)
+Kalau pada JS melakukan 
+
+console.log(i);
+var i = 10;
+
+Yang terjadi adalah
+
+var i;
+console.log(i);
+i = 10; 
+
+Jadi, inisialisasi var i dinaikan ke atas, dan ketika di console akan menghasilkan nilai undefined
+Untuk mengatasinya, gunakan let
+
+JS pakai function scope, kalau ada code seperti ini 
+function test() {
+  for (var i = 0; i < 10; i++) {
+    console.log(i);
+  }
+}
+test();
+console.log(i);
+
+console.log(i) akan error, karena i berada di scope function
+
+IIFE & SIAF
+
+Kalau suatu variable pakai let, itu jadi block scope
+
+
