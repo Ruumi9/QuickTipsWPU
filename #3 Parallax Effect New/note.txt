@@ -1,0 +1,9 @@
+Tipe parallax : 
+1. fixed background scrolling body
+2. Landing elements
+3. Slow Elements
+4. JIB Effect / drown Effect
+5. Zoom effect
+6. Reveal Elements
+7. Horizontal scrolling
+8. Gabungan 
